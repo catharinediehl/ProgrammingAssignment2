@@ -10,7 +10,7 @@
 ##inverse. 
  
 
-makeVector <- function(x = matrix()) {
+makeMatrix <- function(x = matrix()) {
         m <- NULL
         set <- function(y) {
                 x <<- y
